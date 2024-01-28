@@ -10,6 +10,7 @@ import {
   reactjs,
   redux,
   tailwind,
+  android,
   nodejs,
   git,
   figma,
@@ -84,6 +85,7 @@ const technologies = [
     name: 'React JS',
     icon: reactjs,
   },
+  
   {
     name: 'Redux Toolkit',
     icon: redux,
@@ -96,18 +98,12 @@ const technologies = [
     name: 'Node JS',
     icon: nodejs,
   },
-  {
-    name: 'Rails',
-    icon: rubyrails,
-  },
+  
   {
     name: 'graphql',
     icon: graphql,
   },
-  {
-    name: 'postgresql',
-    icon: postgresql,
-  },
+ 
   {
     name: 'git',
     icon: git,

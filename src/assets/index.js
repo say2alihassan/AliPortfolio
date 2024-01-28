@@ -32,6 +32,7 @@ import javascript from './tech/javascript.png';
 import nodejs from './tech/nodejs.png';
 import reactjs from './tech/reactjs.png';
 import redux from './tech/redux.png';
+import android from './tech/Android.png';
 import tailwind from './tech/tailwind.png';
 import typescript from './tech/typescript.png';
 import graphql from './tech/graphql.png';
@@ -49,8 +50,10 @@ import math from './projects/math-magicians.png';
 import movie from './projects/movie-metro.png';
 import nyeusi from './projects/nyeusi.png';
 import space from './projects/space-hub.png';
+import Ali from './projects/Ali.png';
 
 export {
+  Ali,
   bwmap,
   nairobi,
   whiteabstract,
@@ -96,4 +99,5 @@ export {
   dcc,
   kelhel,
   microverse,
+  android
 };

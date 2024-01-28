@@ -28,11 +28,15 @@ const Navbar = () => {
 
           {/* if you have text you want besides your logo it comes here.
           Otherwise delete this if you don't need it. */}
-          <img
-            src={logotext}
-            alt="logo"
-            className="sm:w-[90px] sm:h-[90px] w-[85px] h-[85px] -ml-[0.6rem] object-contain"
-          />
+          <text className="
+          hover:text-taupe text-[21px] font-medium font-mova 
+          uppercase tracking-[3px]
+          text-eerieBlack sm:w-[90px] sm:h-[90px] w-[85px] h-[90px] mt-[0.90rem] -ml-[0.20rem] object-contain"s>
+            Ali Hassan
+          </text>
+        
+
+         
         </Link>
         <ul className="list-none hidden sm:flex flex-row gap-14 mt-2">
           {navLinks.map((nav) => (
