@@ -7,7 +7,9 @@ import {
   Navbar,
   Tech,
   Projects,
+  Testimonials,
 } from './components';
+import { testimonials } from './constants';
 
 const App = () => {
   return (
@@ -37,6 +39,11 @@ const App = () => {
             <Experience />
           </div>
         </div>
+        {testimonials.length > 0 && (
+          <div className="bg-night pt-10">
+            <Testimonials />
+          </div>
+        )}
         <div className="relative z-0">
           <Contact />
         </div>

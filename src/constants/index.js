@@ -35,7 +35,7 @@ export const navLinks = [
 export const contact = {
   email: 'ali.hassan.sulehree@gmail.com',
   github: 'https://github.com/say2alihassan',
-  linkedin: '', // paste your LinkedIn profile URL here
+  linkedin: 'https://www.linkedin.com/in/ali-hassan-full-stack',
 };
 
 const services = [
@@ -107,19 +107,74 @@ const technologies = [
 const experiences = [
   {
     title: 'Independent Mobile & Full-Stack Developer',
-    company_name: 'Self-employed · Devvertix',
+    company_name: 'Devvertix · Freelance · Remote',
     icon: frontend,
     iconBg: '#333333',
-    date: '2019 - Present',
+    date: 'Sep 2025 - Present',
     points: [
-      'Build iOS & Android apps in React Native and native (Swift, Kotlin)',
-      'Take over existing live apps and keep them stable, updated and growing',
-      'Set up subscriptions, payments and store releases on both platforms',
-      'Build backends with Node.js, NestJS, Django, AWS and Firebase',
-      '40+ completed freelance jobs with a 5-star rating',
+      'Building and maintaining mobile apps and their backends for founders',
+      'Native iOS and Android, React Native, Node.js, NestJS and AWS',
+      'Hands-on on every project, from first build to store releases and long-term updates',
+    ],
+  },
+  {
+    title: 'Principal Software Engineer',
+    company_name: 'Freelance · Self employed · Remote',
+    icon: prototyping,
+    iconBg: '#333333',
+    date: 'Jul 2021 - Jul 2026',
+    points: [
+      'Built Tabbio, an AI-powered career platform for the UAE & GCC with ATS-ready web CVs',
+      'Built Awaaz-e-Sehat, a speech-first maternal health platform deployed in clinics across Pakistan, built at LUMS and funded by Google and Path.io',
+      'Shipped Story-Formed Life, Groupie, MyPerfectPay, Trick And Treats and Carvonix to the App Store',
+      'Integrated AI features (GPT-4o vision, voice models, automation) into production products',
+      'Improved API performance by 15-20% across client codebases through query optimisation and caching',
+    ],
+  },
+  {
+    title: 'Senior Full Stack Developer',
+    company_name: 'TWS · Full time',
+    icon: backend,
+    iconBg: '#333333',
+    date: 'Mar 2023 - Aug 2025',
+    points: [
+      'Built and shipped Carvonix, a social platform for car enthusiasts, across mobile and backend',
+      'Led full-stack development on large web apps with React, NestJS, PostgreSQL and AWS',
+      'Reduced backend downtime by 40% through query optimisation and infrastructure improvements',
+      'Also shipped Proppu, Centropix and Damask',
+    ],
+  },
+  {
+    title: 'Senior React Native Developer',
+    company_name: 'NODLAYS',
+    icon: frontend,
+    iconBg: '#333333',
+    date: 'Mar 2021 - Feb 2023',
+    points: [
+      'Led React Native development for cross-platform iOS & Android apps',
+      'Managed App Store and Google Play releases',
+      'Worked with design and backend teams to ship polished mobile experiences',
+    ],
+  },
+  {
+    title: 'Full Stack Developer',
+    company_name: 'Coder Crew · Full time',
+    icon: ux,
+    iconBg: '#333333',
+    date: 'Mar 2019 - Feb 2021',
+    points: [
+      'Built web applications with React and SQL for clients across multiple industries',
+      'Increased mobile traffic by 15% through responsive design',
+      'Worked across the full project lifecycle, from requirements to deployment',
     ],
   },
 ];
+
+// Client reviews shown in the Reviews section. The section stays hidden until
+// at least one entry is added. Only add real reviews, copied from your
+// freelance profile or sent to you by clients, e.g.
+// { quote: '...', name: 'Client name', role: 'Founder, Company', source: 'Upwork' },
+const testimonials = [];
 
 // Apps shown in the Apps section. `image` is optional: without it the card
 // shows a plain gradient with the app name. `links` are shown as buttons.
@@ -212,4 +267,4 @@ const moreApps = [
   { name: 'Ask AI', url: 'https://play.google.com/store/apps/details?id=com.askai.app&hl=en' },
 ];
 
-export { services, technologies, experiences, projects, moreApps };
+export { services, technologies, experiences, projects, moreApps, testimonials };
