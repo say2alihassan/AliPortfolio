@@ -7,12 +7,12 @@ import { fadeIn, textVariant } from '../utils/motion';
 const TestimonialCard = ({ index, quote, name, role, source }) => (
   <motion.div
     variants={fadeIn('', 'spring', index * 0.3, 0.75)}
-    className="bg-jetLight p-8 rounded-[20px] xs:w-[340px] w-full flex flex-col justify-between">
+    className="bg-jetLight p-8 rounded-[20px] w-full md:w-[calc(50%-14px)] flex flex-col">
     <p className="text-timberWolf font-black text-[48px] leading-none">"</p>
-    <p className="text-timberWolf tracking-wider text-[16px] font-poppins leading-[28px]">
+    <p className="text-timberWolf tracking-wider text-[16px] font-poppins leading-[28px] mt-2">
       {quote}
     </p>
-    <div className="mt-6">
+    <div className="mt-auto pt-6">
       <p className="text-timberWolf font-medium text-[16px] font-poppins">
         {name}
       </p>

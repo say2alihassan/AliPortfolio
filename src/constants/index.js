@@ -174,7 +174,32 @@ const experiences = [
 // at least one entry is added. Only add real reviews, copied from your
 // freelance profile or sent to you by clients, e.g.
 // { quote: '...', name: 'Client name', role: 'Founder, Company', source: 'Upwork' },
-const testimonials = [];
+const testimonials = [
+  {
+    quote:
+      'Ali Hassan is an exceptional … developer who consistently delivers high-quality work. His deep understanding of mobile development, attention to detail, and problem-solving abilities have been instrumental in the success of our project. He not only met all deadlines but also exceeded expectations with his clean code, proactive communication, and dedication to excellence.',
+    name: 'Alexander Crosson',
+    source: 'Maohi Match',
+  },
+  {
+    quote:
+      'Ali Hassan did an exceptional job developing my IoT mobile application … He efficiently integrated Bluetooth and background functionalities, ensuring the app worked seamlessly with our IoT devices. Ali was proactive in suggesting improvements, delivered clean and optimized code, and completed every milestone on time.',
+    name: 'Bogdan Javgurean, Ktizo Labs',
+    source: 'Freelance',
+  },
+  {
+    quote:
+      'Ali is a great resource and worked very promptly on my issue. He was also available throughout the day on EST which was super helpful.',
+    name: 'Scott Weisss',
+    source: 'Freelance',
+  },
+  {
+    quote:
+      'Incredible developer! Ali resolved our critical bugs quickly and professionally. He is a fantastic communicator and delivers high-quality code.',
+    name: 'Alexander Last',
+    source: 'Linkedin',
+  },
+];
 
 // Apps shown in the Apps section. `image` is optional: without it the card
 // shows a plain gradient with the app name. `links` are shown as buttons.
